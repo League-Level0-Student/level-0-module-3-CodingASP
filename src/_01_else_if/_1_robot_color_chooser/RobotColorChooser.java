@@ -10,6 +10,9 @@ public class RobotColorChooser {
 		//1. Create a new Robot
 		Robot rob = new Robot();
 	    //2. Make the robot draw a shape (this will take more than one line of code)
+		
+		int whole = 1;
+		while (whole <100000) {
 		rob.penDown();
 		rob.setSpeed(10);
 		int count = 4;
@@ -37,7 +40,7 @@ public class RobotColorChooser {
 		
         //7. Put a loop around your code so that you keep asking the user for more colors & drawing them
 		
-
+		}
 		
 
 
