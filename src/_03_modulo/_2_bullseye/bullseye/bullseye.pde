@@ -1,15 +1,18 @@
+void setup(){
+        size(400,600);
+      
+        
+    }
 
-void setup() {
- 
-  // set the size of your sketch
-  
-}
+    void draw(){
+        for (int i = 0; i < 12; i++) {
+          fill(#080808);
+          ellipse(170, 270, 300-(i *25), 300- (i *25));
+          if(i%2==0){
+            fill(#FF0303);
+            ellipse(170, 270, 300-(i *25), 300- (i *25));
+        
 
-void draw() {
-  
-  //Starting with the largest ellipse, use a for loop to draw a bullseye with ellipses.
-  
-  //Use an if statement and modulo to alternate the color of your rings.
-  
-  
-}
+    }
+    }
+   }
